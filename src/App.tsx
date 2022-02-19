@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { PopAlertOnClick,PopAlert,ReturnIfMoreThan4Chars,NameNAge,ReturnFNameLNameNAge,LogNamesRestOperator,LogOrAlert,ReturnBiggerNum,ReturnLowestNumNName,ReturnIfAreDoubleNameExist,ReturnOrderOrNot,ReturnIfExistInArray,LogObj,LogBiggerObj,ReturnIfNameInArray } from './Components/Home/Home';
 import './App.css';
 import {Student} from './Components/Student/Student';
-import {ReturnEvenNumbers} from './Components/Game/Game';
+import {DisplayBiggestNum,ReturnEvenNumbers,DisplaySuccessOrFail,DisplayNiceOtGood,PrintFizzBuzz} from './Components/Game/Game';
 
 function App() {
   // PopAlert();
@@ -19,15 +19,17 @@ function App() {
   // LogObj({firstName: "eli",age:25},{firstName: "eli",age:25},{firstName: "eli",age:25});
   // LogBiggerObj({firstName: "eli",grade:4,age:25},{firstName: "eli",grade:4,age:15},{firstName: "eli",grade:4,age:21});
   //  ReturnIfNameInArray("eliyahu",{name: "eliyahu",grade:4,age:25},{name: "eli",grade:4,age:15},{name: "eli",grade:4,age:21});
-  
+  // PrintFizzBuzz();
   
   return (
     <div className="App">
       <header className="App-header">
-      <PopAlertOnClick/>
-      <Student/>
-      {/* <DisplayBiggestNum/>{//does not work */}
-      <ReturnEvenNumbers/>
+      {/* <PopAlertOnClick/> */}
+      {/* <Student/> */}
+      {/* <DisplayBiggestNum/> */}
+      {/* <ReturnEvenNumbers/> */}
+      {/* <DisplaySuccessOrFail/> */}
+      {/* <DisplayNiceOtGood/> */}
       </header>
     </div>
   );
