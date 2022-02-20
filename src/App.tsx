@@ -3,7 +3,7 @@ import { PopAlertOnClick,PopAlert,ReturnIfMoreThan4Chars,NameNAge,ReturnFNameLNa
 import './App.css';
 import {Student} from './Components/Student/Student';
 import {DisplayBiggestNum,ReturnEvenNumbers,DisplaySuccessOrFail,DisplayNiceOtGood,PrintFizzBuzz} from './Components/Game/Game';
-
+import {Loto} from './Components/Loto/Loto'
 function App() {
   // PopAlert();
   // {ReturnIfMoreThan4Chars("eliyahu")}
@@ -20,6 +20,7 @@ function App() {
   // LogBiggerObj({firstName: "eli",grade:4,age:25},{firstName: "eli",grade:4,age:15},{firstName: "eli",grade:4,age:21});
   //  ReturnIfNameInArray("eliyahu",{name: "eliyahu",grade:4,age:25},{name: "eli",grade:4,age:15},{name: "eli",grade:4,age:21});
   // PrintFizzBuzz();
+  // Loto();
   
   return (
     <div className="App">
